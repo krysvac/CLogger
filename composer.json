@@ -1,5 +1,5 @@
 {
-    "name": "krysvac/CLogger",
+    "name": "krysvac/clogger",
     "description": "A class that logs your errors to files",
     "type": "Logger",
     "license": "MIT",

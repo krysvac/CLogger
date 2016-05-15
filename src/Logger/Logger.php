@@ -8,13 +8,8 @@ namespace krysvac\Logger;
  * @author Jonathan Sundqvist
  * @version 1.0
  */
-class Logger
-{
-    /**
-     * If the Logger should echo or print to file.
-     */
-    private static $debug = false;
-    
+class CLogger
+{    
     /**
      * output directory
      */
@@ -22,7 +17,6 @@ class Logger
     
     /**
      * Initializes class
-     * Need to call setDebug before
      */
     public static function init()
     {
@@ -30,19 +24,8 @@ class Logger
         {
             mkdir(self::getOutput());
         }
-        if (!self::$debug)
-        {
-            set_error_handler([self::class, "errorWriter"]);
-        }
-    }
 
-    /**
-     * If the Logger should echo or print to file.
-     *
-     */
-    public static function setDebug($debug = true)
-    {
-        self::$debug = $debug;
+        set_error_handler([self::class, "writeErrors"]);
     }
 
     /**
@@ -72,7 +55,7 @@ class Logger
      *
      * @return bool
      */
-    public static function errorWriter($errno, $errstr, $errfile, $errline)
+    public static function writeErrors($errno, $errstr, $errfile, $errline)
     {
         $filename = date("Y-m-d") . ".log";
         $content  = self::getContents($errno, $errstr, $errfile, $errline);
