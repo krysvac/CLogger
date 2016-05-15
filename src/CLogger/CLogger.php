@@ -3,7 +3,7 @@ namespace krysvac\Logger;
 
 /**
  * CLogger
- *
+ * 
  * @package krysvac\CLogger
  * @author Jonathan Sundqvist
  * @version 1.0
