@@ -1,0 +1,16 @@
+{
+    "name": "krysvac/CLogger",
+    "description": "A class that logs your errors to files",
+    "type": "Logger",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JonathanSundqvist",
+            "email": "jodu15@student.bth.se"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": { "Krysvac\\": "src/" }
+    }
+}
