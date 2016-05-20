@@ -39,6 +39,6 @@ License
 --------
 This code is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-[![Build Status](https://travis-ci.org/krysvac/CLogger.svg?branch=master)](https://travis-ci.org/mosbth/mumin)
+[![Build Status](https://travis-ci.org/krysvac/CLogger.svg?branch=master)](https://travis-ci.org/krysvac/CLogger)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/krysvac/CLogger/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/krysvac/CLogger/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/krysvac/CLogger/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/krysvac/CLogger/?branch=master)
