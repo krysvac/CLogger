@@ -1,0 +1,9 @@
+Error: 2 (E_WARNING)
+Unix Time: 1463770936 (2016-05-20 21:02:16)
+File: Test.php
+Line: 1
+Message: TestError: 2 (E_WARNING)
+Unix Time: 1463770955 (2016-05-20 21:02:35)
+File: Test.php
+Line: 1
+Message: Test
