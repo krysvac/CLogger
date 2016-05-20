@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit>
+
+    <testsuites>
+        <testsuite name="all">
+            <directory>src/CLogger</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">src/</directory>
+        </whitelist>
+    </filter>
+
+    <logging>
+        <log type="coverage-html" target="src/coverage/"/>
+        <log type="coverage-clover" target="coverage.clover"/>
+    </logging>
+
+</phpunit>
