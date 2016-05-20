@@ -6,4 +6,12 @@ Message: TestError: 2 (E_WARNING)
 Unix Time: 1463770955 (2016-05-20 21:02:35)
 File: Test.php
 Line: 1
+Message: TestError: 2 (E_WARNING)
+Unix Time: 1463774915 (2016-05-20 22:08:35)
+File: Test.php
+Line: 1
+Message: TestError: 2 (E_WARNING)
+Unix Time: 1463775039 (2016-05-20 22:10:39)
+File: Test.php
+Line: 1
 Message: Test
